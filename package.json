@@ -1,6 +1,6 @@
 {
-  "name": "@freecodecamp/curriculum",
-  "description": "freeCodeCamp's curriculum seed files",
+  "name": "spiraladder-curriculum",
+  "description": "Spiraladder's curriculum seed files",
   "license": "(BSD-3-Clause AND CC-BY-SA-4.0)",
   "author": "freeCodeCamp <team@freecodecamp.org>",
   "homepage": "https://github.com/freeCodeCamp/curriculum#readme",
