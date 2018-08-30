@@ -158,45 +158,15 @@
       "challengeType": 0
     },
     {
-      "id": "5a96f2396033eff2641401c4",
-      "title": "Forking a CodePen to start a new project",
-      "description": [
-        "",
-        "",
-        "You are ready for your first project! You will create an informational article using the h1, h2, h3, and p elements.",
-        "",
-        "//dl.dropboxusercontent.com/s/2mrt5t4px5i80vq/tcc-codepen-fork-me.png",
-        "A picture showing how to fork a Codepen.",
-        "First you will learn how to fork a CodePen to start each new project. See the picture above.<br>\"Forking\" code is similar to copying it and that definition is good enough for now.<br>Click the \"Open link in new tab\" button below and it will open a Codepen. Fork that Codepen to start your next project. Come back here when you have pressed the \"Fork\" button.",
-        "https://codepen.io/tchaffee/pen/XVRzMz",
-        "",
-        "//dl.dropboxusercontent.com/s/1xzm4zl60h6ouqa/tcc-codepen-rename-fork.png",
-        "A picture showing how to change the title of a Codepen.",
-        "Remember to change the title of your Codepen after you fork it (see above). For example, for your first project change the title to \"Spiraladder: Informational Article Project\"<br>Remember to save your work often!",
-        ""
-      ],
-      "files": {
-        "indexhtml": {
-          "key": "indexhtml",
-          "ext": "html",
-          "name": "index",
-          "contents": [],
-          "head": [],
-          "tail": []
-        }
-      },
-      "translations": {},
-      "tests": [],
-      "challengeType": 7
-    },
-    {
       "id": "5acfd176fdcb9a7e8278bec7",
       "title": "Build an Informational Article Page",
       "description": [
-        "Choose a topic that is interesting to you. Don't spend too much time getting the words in the article perfect. The goal is to practice using the elements you have learned so far: h1, h2, h3, and p.",
-        "Here's a <a href='https://dl.dropbox.com/s/kdreav9a81r0ghx/tcc-informational-article-example.png?raw=1' target='_blank'>picture of an example Informational Article Page </a> so you can see what a finished project looks like. Your article can be much shorter than the example if you want.",
-        "In your forked Codepen (from the previous step), run the tests before you do any coding. Write code to get each test to pass, one at a time, and when all the tests pass you will have a finished Informational Article Project.<br><br><img src=\"//dl.dropboxusercontent.com/s/65eci88yemyh755/tcc-codepen-run-tests.png\"/>",
-        "When you're done, use the button below to submit the URL to your working project."
+        "<strong>Objective:</strong> Build a web page similar to this <a href='https://dl.dropbox.com/s/kdreav9a81r0ghx/tcc-informational-article-example.png?raw=1' target='_blank'>picture of an example Informational Article Page </a>.",
+        "Choose a topic that is interesting to you. Don't spend too much time getting the words in the article perfect. The goal is to practice using the elements you have learned so far: h1, h2, h3, and p. Your article can be much shorter than the example if you want.",
+        "You will need to create an account on <a href=\"https://codepen.io\" target=\"_blank\">CodePen.io</a> and build your web page there.",
+        "When you are done creating a CodePen account, close that tab or window and start your project by forking <a href=\"https://codepen.io/tchaffee/pen/XVRzMz\"target=\"_blank\">this CodePen.io</a>. The \"Fork\" button is in the top left corner. Remember to rename your CodePen after you have forked it. You can name it \"Spiraladder: Informational Article",
+        "In your forked Codepen, run the tests before you do any coding. Write code to get each test to pass, one at a time, and when all the tests pass you will have a finished Informational Article Project.<br><br><img src=\"//dl.dropboxusercontent.com/s/65eci88yemyh755/tcc-codepen-run-tests.png\"/>",
+        "When you're done, use the button below to submit the URL to your working Codepen."
       ],
       "files": {
         "indexhtml": {
