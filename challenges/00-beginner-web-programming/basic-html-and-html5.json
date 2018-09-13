@@ -6,13 +6,54 @@
   "template": "<body>${ source || '' }</body>",
   "challenges": [
     {
+      "id": "5b9a64e4cd93d5e7705016ba",
+      "title": "The easiest challenge in the world",
+      "guideUrl": "https://spiraladder.com",
+      "description": [
+        "Welcome to the coding challenges. We recommend you do these in order.",
+        "First you should sign in to save your progress.",
+        "For every challenge you need to pass the tests. This will be the easiest challenge to pass. Just click the button below to run the tests. Sometimes you will need to scroll to see the button."
+      ],
+      "files": {
+        "indexhtml": {
+          "key": "indexhtml",
+          "ext": "html",
+          "name": "index",
+          "contents": [""],
+          "head": [],
+          "tail": []
+        },
+        "indexjs": {
+          "key": "indexjs",
+          "ext": "js",
+          "name": "index",
+          "contents": [""],
+          "head": [],
+          "tail": []
+        },
+        "indexjsx": {
+          "key": "indexjsx",
+          "ext": "jsx",
+          "name": "index",
+          "contents": [""],
+          "head": [],
+          "tail": []
+        }
+      },
+      "translations": {},
+      "tests": [
+        {
+          "text": "This test will always pass.",
+          "testString": "assert.isTrue(true);"
+        }
+      ],
+      "challengeType": 0
+    },
+    {
       "id": "bd7123c8c441eddfaeb5bdef",
       "title": "Say Hello to HTML Elements",
       "guideUrl": "https://spiraladder.com",
       "description": [
-        "Welcome to the coding challenges. These challenges will walk you through web development step-by-step.",
-        "We recommend you do these in order.",
-        "Also, if you want to save your progress, you should create an account.",
         "You can edit <code>code</code> in your <code>text editor</code>, which is embedded into this web page.",
         "Do you see the code in your text editor that says <code>&#60;h1&#62;Hello&#60;/h1&#62;</code>? That's an HTML <code>element</code>.",
         "Most HTML elements have an <code>opening tag</code> and a <code>closing tag</code>.",
