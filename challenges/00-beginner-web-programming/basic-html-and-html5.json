@@ -449,16 +449,13 @@
         "An example of this would be:",
         "<code>&#60img src=\"//www.your-image-source.com/your-image.jpg\"&#62</code>",
         "You might have noticed the <code>img</code> element has no content! And it is missing the closing tag. When an element does not need the closing tag, we call it self-closing. With this last piece about self-closing elements, you have learned a lot of what you need to know about the structure of HTML elements.",
-        "To summarize, most elements have an opening and closing tag with content in between. A few elements are self-closing and don't need content or a closing tag. And you are now starting to use attributes. Remember attributes go inside the opening tag.",
-        "All <code>img</code> elements <strong>must</strong> have an <code>alt</code> attribute. The value of an <code>alt</code> attribute is used for screen readers to improve accessibility and is displayed if the image fails to load. The value of the alt attribute should be a short description of the image.",
-        "This is how you would add an <code>alt</code> attribute to the <code>img</code> example above:",
-        "<code>&#60img src=\"//www.your-image-source.com/your-image.jpg\" alt=\"Author standing on a beach with two thumbs up.\"&#62</code>",
+        "To summarize, most elements have an opening and closing tag with content in between. A few elements are self-closing and don't need content or a closing tag. And you are now starting to use attributes like <code>id</code> and <code>src</code>.",
         "<hr>",
         "Try to add an image to our website:",
         "Insert an <code>img</code> tag, after the <code>h1</code> element.",
         "Now set the <code>src</code> attribute so that it points to this url:",
         "<code>//www.dropbox.com/s/7hqv52mcunwrl6l/tcc-friend-photo.jpg?raw=1</code>",
-        "Finally don't forget to give your image an <code>alt</code> attribute."
+        "TIP: Don't try to type the URL. It's too long and you might make mistakes like confusing a number one for the lower case \"L\" letter. Use copy / paste instead. The editor might not let you paste with your mouse, so use your keyboard. CTRL-V or Command-V will work on most systems."
       ],
       "files": {
         "indexhtml": {
@@ -467,6 +464,48 @@
           "name": "index",
           "contents": [
             "<h1>FriendsPhotoApp</h1>",
+            "",
+            "<p id=\"foobar\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vulputate sagittis mollis. Nullam nec cursus diam, nec lobortis magna. Mauris pharetra eros id fermentum vulputate.</p>"
+          ],
+          "head": [],
+          "tail": []
+        }
+      },
+      "translations": {},
+      "tests": [
+        {
+          "text": "message: Your page should have an image element.",
+          "testString":
+            "assert($(\"img\").length > 0, 'message: Your page should have an image element.');"
+        },
+        {
+          "text":
+            "message: Your image should have a <code>src</code> attribute that points to the friends image.",
+          "testString":
+            "assert(new RegExp(\"\\/\\/www\\.dropbox\\.com\\/s\\/7hqv52mcunwrl6l\\/tcc-friend-photo\\.jpg\\\\?raw=1\", \"g\").test($(\"img\").attr(\"src\")), 'message: Your image <code>src</code> attribute is not right. You might want to use copy and paste to get it exactly right.');"
+        }
+      ],
+      "challengeType": 0
+    },
+    {
+      "id": "5ba1045862aafe0961294f81",
+      "title": "Use an alt attribute for your image",
+      "description": [
+        "All <code>img</code> elements <strong>must</strong> have an <code>alt</code> attribute. The value of an <code>alt</code> attribute is used for screen readers to improve accessibility and is displayed if the image fails to load. The value of the alt attribute should be a short description of the image.",
+        "This is how you would add an <code>alt</code> attribute to an <code>img</code> element:",
+        "<code>&#60img src=\"//www.your-image-source.com/your-image.jpg\" alt=\"Author standing on a beach with two thumbs up.\"&#62</code>",
+        "<hr>",
+        "Add an <code>alt</code> attribute to your <code>img</code> element. Use \"Friends waving out of a window of a red building\" for the value of the <code>alt</code> attribute."
+      ],
+      "files": {
+        "indexhtml": {
+          "key": "indexhtml",
+          "ext": "html",
+          "name": "index",
+          "contents": [
+            "<h1>FriendsPhotoApp</h1>",
+            "",
+            "<img src=\"//www.dropbox.com/s/7hqv52mcunwrl6l/tcc-friend-photo.jpg?raw=1\">",
             "",
             "<p id=\"foobar\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vulputate sagittis mollis. Nullam nec cursus diam, nec lobortis magna. Mauris pharetra eros id fermentum vulputate.</p>"
           ],
